@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Volunteers - Sign Up</title>
+    <style>
+        /* styles.css */
+
+.sign-up form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+nav {
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #db0e0e;
+    }
+
+.sign-up label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.sign-up input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.sign-up button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body {
+      font-family: sans-serif;
+    }
+    header {
+      background-color:#08b8fe57;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 0;
+    }
+    h2 {
+      margin-top: 0;
+    }
+    nav {
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #db0e0e;
+    }
+    main {
+      padding: 20px;
+    }
+    .content {
+      display: flex;
+      justify-content: space-between;
+    }
+    .call-to-action {
+      background-color: #14f182;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      border-radius: 4px;
+    }
+    footer {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+    }
+
+.sign-up button:hover {
+    background-color: #0056b3;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Community Volunteers</h1>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About Us</a>
+            <a href="./volunteer.html">Volunteer Opportunities</a>
+            <a href="./event.html">Event Calendar</a>
+            <a href="#">Resources</a>
+            <a href="./sucessstories.html">Success Stories</a>
+            <a href="./">Contact US</a>
+            <a href="./signup.html">Volunteer Sign Up</a>
+              <!-- ... -->
+            </nav>
+    </header>
+    <main>
+        <section class="sign-up">
+            <h2>Sign Up to Volunteer</h2>
+            <form action="submit-sign-up" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="availability">Availability:</label>
+                <input type="text" id="availability" name="availability" required>
+
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Contact information | Social Media link | Privacy Policy | Terms Of Service</p>
+    </footer>
+</body>
+</html>
